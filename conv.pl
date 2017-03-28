@@ -15,7 +15,7 @@ s/can not/can't/g;
 s/We are met/We meet today/;
 s/poor power/ability/;
 
-s/^/\<\!DOCTYPE=html\>\n\<html\>\n\<head\>\n\<title\>Gettysburg Address\<\/title\>\n\<\/head\>\n\<body\>\n\<div\>\n/;
+s/^/\<\!DOCTYPE html\>\n\<html lang='en'\>\n\<head\>\n\<title\>Gettysburg Address\<\/title\>\n\<\/head\>\n\<body\>\n\<div\>\n/;
 s/$/\n\<\/div\>\n\<\/body\>\n\<\/html\>/;
 
 ###---------------
